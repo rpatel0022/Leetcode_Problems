@@ -1,5 +1,8 @@
 #Return False is if unique
-#Re
+#Return True if it contains duplicate values
+
+#Use dictionary to keep track of the occurrences. 
+#If occurences is very more than or equal to two then it contains duplicates and return True. 
 
 class Solution(object):
     def containsDuplicate(self, nums):
